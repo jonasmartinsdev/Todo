@@ -1,0 +1,91 @@
+
+.wrapper {
+  max-width: 46rem;
+  margin: calc(0px - 1.687rem) auto 0;
+  padding: 0 1rem;
+}
+
+.taskForm {
+  display: flex;
+  gap: 8px;
+}
+
+.taskForm input {
+  width: 100%;
+  background: var(--gray-500);
+  color: var(--gray-100);
+  border: 0;
+  height: 3.375rem;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+
+.taskForm button {
+  background: var(--blue-500);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 0;
+  color: var(--gray-100);
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.4;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  cursor: pointer;
+}
+
+.taskForm button:hover {
+  background: var(--blue-300);
+}
+
+
+.taskDetail {
+  margin-top: 4rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskDetail span {
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.taskCreate strong {
+  color: var(--blue-300);
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+.taskComplete strong {
+  color: var(--purple-300);
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+
+.taskList {
+  margin-top: 1.5rem;
+}
+
+.taskListEmpty {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 4rem 1.5rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
